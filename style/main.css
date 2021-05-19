@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap");
+
+body {
+	box-sizing: border-box;
+	margin: 0 auto;
+	border: 2px solid black;
+	width: 80vw;
+	font-family: "Fira Sans", sans-serif;
+}
+
+.container {
+	text-align: center;
+}
+
+.flex-row1,
+.flex-row2,
+.flex-row3 {
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	border: 1px solid black;
+	overflow: hidden;
+}
+
+.flex-row1,
+.flex-row2 {
+	background-image: url("https://t3.ftcdn.net/jpg/03/25/38/64/360_F_325386410_7XLHgFBmPH10k0GCUXbikWCAeFFC8145.jpg");
+	color: #fff;
+
+	background-size: cover;
+}
+
+.flex-row1 div {
+	margin-bottom: 30px;
+	flex: 1;
+	height: 380px;
+}
+
+.flex-row1 .player1-box {
+	border-right: 3px solid black;
+}
+
+.flex-row1 img {
+	height: 25%;
+	margin: 8px;
+}
+
+/* Button styling */
+.flex-row2 button {
+	padding: 2px;
+	margin: 0 5px;
+	border-radius: 5px;
+	width: 60px;
+	height: 40px;
+	border: inherit;
+	transition: 0.3s;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.dark {
+	opacity: 0.5;
+}
+.flex-row2 .btn-hit {
+	background-color: rgb(235, 47, 47);
+}
+
+.flex-row2 .btn-stand {
+	background-color: rgb(88, 163, 206);
+}
+
+.flex-row2 .btn-deal {
+	background-color: rgb(228, 228, 24);
+}
+
+.flex-row2 button:hover {
+	border: 2px solid rgb(16, 101, 182);
+}
+
+/* Table styling */
+table,
+th,
+td {
+	padding: 7px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}

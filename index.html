@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style/main.css" />
+		<title>BlackJack App</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="title">
+				<h1>Blackjack</h1>
+				<h2><span class="result">Let's play</span></h2>
+			</div>
+			<div class="flex-row1">
+				<div class="player1-box">
+					<h2>Player 1: <span class="player1-result">0</span></h2>
+				</div>
+				<div class="player2-box">
+					<h2>Player 2: <span class="player2-result">0</span></h2>
+				</div>
+			</div>
+			<div class="flex-row2">
+				<div>
+					<button class="btn-hit">Hit</button>
+					<button class="btn-stand">Stand</button>
+					<button class="btn-deal dark">Deal</button>
+				</div>
+			</div>
+			<div class="flex-row3">
+				<table>
+					<tr>
+						<th></th>
+						<th>Wins</th>
+						<th>Losses</th>
+						<th>Draws</th>
+					</tr>
+					<tr>
+						<td>Player 1</td>
+						<td><span class="player1-wins">0</span></td>
+						<td><span class="player1-losses">0</span></td>
+						<td><span class="player1-draws">0</span></td>
+					</tr>
+					<tr>
+						<td>Player 2</td>
+						<td><span class="player2-wins">0</span></td>
+						<td><span class="player2-losses">0</span></td>
+						<td><span class="player2-draws">0</span></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
