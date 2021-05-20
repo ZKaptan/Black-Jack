@@ -8,6 +8,6 @@
 						developing applications.</p>
 	<p>	The structure and styling of the webpage was built in HTML and CSS,
 	while the Black Jack functionality was built with JavaScript </p>
-	<p> Here is the <a href="https://zkaptan.github.io/BlackJack/" target="_blank"> link</a> to the game. I hope you enjoy!</p>
+	<p> Here is the <a href="https://zkaptan.github.io/Black-Jack/" target="_blank"> link</a> to the game. I hope you enjoy!</p>
 
 	
